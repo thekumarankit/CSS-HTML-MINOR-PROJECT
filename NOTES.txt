@@ -1,0 +1,66 @@
+In this chapter first we are going to learn about some design principle which help us build and design websites 
+
+1.Basic Design Principles:
+For better looking websites
+
+(i).color 
+(ii).typography(text related properties)
+
+(i).Color Theory:
+Color Wheel: when we arrange primary secondary and tertiary color in circle then color wheel will be generated
+
+.different colors has different meaning
+.use of blue for stability and reliablity
+
+.color combination 
+-> monochromatic (subtle color combination)
+-> complementary (impactful color combination)
+-> triadic (high contrast combination)
+
+.we can learn more about color combination and color wheel on canva color wheel
+
+(ii).Typography
+style & apprearance of text
+.typography of the websites must be related to your websites moto 
+
+Font Families:
+sans-serif
+serif
+monospace
+cursive
+fantasy
+
+.two fonts style per section 
+
+
+(iii).Google Fonts(library of fonts where different fonts available for free and can be used to build any websites)
+.it helps us setting typography
+
+.we must include the font type of specific font that we want to use else our html and css files gets heavy or our project gets heavy
+
+.we can go to fonts.google.com to use fonts of specific families 
+
+
+(iv). Icons
+.There are different icons that will be visible in different websites
+
+Websites for free icons
+.Font Awesome
+.Google Icons
+
+.we can use multiple websites for icons but usually we use one particular websites for icons so that consistency will be maintained
+
+
+Now we have to build sidebar menu for photography page:
+
+.usually when we start any project then we set margin and padding to 0 for all document so that we get clean slate 
+.and select one particular font for the entire document
+.if we want ki mera box pure document ki height lele then we can set that box height to 100vh;
+.browser pe jo mujhe pura page dikhta hai usse ham viewport kahte hai
+
+~ this sign show siblings
+this is general siblings combinator 
+
+in this project the effects depend on the checked and unchecked state of the checkbox
+here we have two icons as label for checkbox first is hamburger menu icon and second one is cross 
+default position of sidebar menu is -300px left but when we checked the checkbox then the position will we shift to 0px from left and the sidebar will visible
